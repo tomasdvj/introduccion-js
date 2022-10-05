@@ -29,7 +29,7 @@ resultado = carrito.some(function(producto){
     return producto.nombre === 'Audifonos';
 });
 
-//! Reduce 
+//! Reduce
 resultado = carrito.reduce(function(total,producto){
     return total+producto.precio;
 }, 0);
