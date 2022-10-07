@@ -12,7 +12,7 @@ function Producto(nombre,precio) {
     this.precio = precio;
 }
 
-//! Crear funciones  que solo se utilizan en unobjeto especifico
+//! Crear funciones  que solo se utilizan en un objeto especifico
 Producto.prototype.formatearProducto = function() {
     return `El producto ${this.nombre} tiene un precio de: ${this.precio}`;
 }
